@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo">Foods</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a class="js-pointer" href="#home">Home</a></li>
+            <li><a class="js-pointer" href="#about">About</a></li>
+            <li><a class="js-pointer" href="#menu">Menu</a></li>
+            <li><a class="js-pointer" href="#services">Services</a></li>
+            <li><a class="js-pointer" href="#contact">Contact</a></li>
+        </ul>
+
+        <div style="line-height: 1;">
+            <i class='bx bxs-cart-alt js-btn-open-cart'></i>
+            <span id="count" class="Quantity">0</span>
+        </div>
+    </header>
+
+
+    <!-- Home start -->
+
+    <section class="home" id="home">
+        
+            <div class="home-text">
+                <h1>Full Website</h1>
+                <h2>Food the <br> Most Precious Things</h2>
+                <button class="btn js-btn-menu">Today's Menu</button>
+            </div>
+            <div class="home-img">
+                <img src="../asset/img/home.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- About start -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="../asset/img/about.png" alt="">
+        </div>
+
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>We speak the good <br> food language</h2>
+            <p>There are many variations passages of Lorem Ipsum available, but the majority have sufferd alteration in form, by injected humour randomimsed words which don't look even slightly believable</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Menu start -->
+    <section style="padding: 0;" class="menu section_menu" id="menu">
+        <div class="heading">
+            <span>Food menu</span>
+            <h2>Fresh taste and great md_price</h2>
+        </div>
+
+        <div id="root" class="menu-container">
+
+        </div>
+
+        <div id="js-direction">
+
+        </div>
+    </section>
+
+    <!-- Services start -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Services</span>
+            <h2>We provide best quality food</h2>
+        </div>
+
+        <div class="service-container">
+            <div class="s-box">
+                <img src="../asset/img/s1.png" alt="">
+                <h3>Order</h3>
+                <p>There are many variations passages of Lorem Ipsum available, but the majority have sufferd alteration in form, by injected humour</p>
+            </div>
+
+            <div class="s-box">
+                <img src="../asset/img/s2.png" alt="">
+                <h3>Shipping</h3>
+                <p>There are many variations passages of Lorem Ipsum available, but the majority have sufferd alteration in form, by injected humour</p>
+            </div>
+
+            <div class="s-box">
+                <img src="../asset/img/s3.png" alt="">
+                <h3>Delivers</h3>
+                <p>There are many variations passages of Lorem Ipsum available, but the majority have sufferd alteration in form, by injected humour</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta">
+        <h2>We make quality food <br> Everyday</h2>
+        <a href="#" class="btn">Let's talk</a>
+    </section>
+
+    <!-- footer start -->
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="col">
+                    <h4>Menu Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Our Service</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Product Managenment</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Contact Us</h4>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal_menu js-modal-menu">
+
+        <div class="cancel">
+            <button class="btn-close js-btn-close">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <img src="../asset/img/menu5.jpg" alt="Menu_today">
+    </div>
+
+
+    <div  class="modal_cart js-modal_cart">
+        <div class="md_cart_container">
+            <div class="md_cart_head">
+                <div style="display: flex; align-items: center;
+                text-align: center;">
+                    <i style="font-size: 48px;" class='bx bx-cart'></i>
+                    <h2>Your Cart</h2>
+                </div>
+                <i class='bx bx-x md_cart_close'></i>
+            </div>
+            
+            <div id="cartItem" class="md_box-cart-all">
+            </div>
+            <div id="total_money">Total:</div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./handle.js"></script>
+</body>
+</html>
